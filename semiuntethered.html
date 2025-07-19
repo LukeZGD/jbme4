@@ -332,7 +332,7 @@ function loadRes(){
 
     document.getElementById('bigButton').innerHTML = "Downloading Cydia"
     setTimeout(function () {
-        payload_cydia = getArrFromResource(load_binary_resource("untethered/Cydia.tar"))
+        payload_cydia = getArrFromResource(load_binary_resource("payload/Cydia.tar"))
         go();
         }, 100);
       }, 100);
@@ -344,20 +344,19 @@ function loadRes(){
   JailbreakMe 4.0 for <br>
   iOS 9.1 - iOS 9.3.4 <br>
   (32bit only) <br>
-  <h2>UNTETHERED</h2>
+  <h2>Semi-untethered</h2>
   <div id="stuff">
     <div id="bigButton" style="font-size:42px;font-family: Arial Black,Arial Bold,Gadget,sans-serif">
       <a href="javascript:loadRes()">jailbreak me!</a>
     </div>
     <br>
-    <p>This variant of JailbreakMe 4.0 will install EverUntether (from EverPwnage) for a fully untethered jailbreak. If you prefer to remain <b>semi-untethered</b>, <a href="semiuntethered.html">go here instead</a>.</p>
-    <p>Note: If you have already jailbroken semi-untethered, just install the EverUntether package from <a href="https://lukezgd.github.io/repo/">my repo</a> instead of using this.</p>
+    <p>This variant of JailbreakMe 4.0 is a semi-untethered jailbreak. If you want a <b>fully untethered</b> jailbreak, <a href="index.html">go here instead</a>.</p>
     <div id="shasums">
       SHA256:<br>
       786ae1f2df2adfad6a759ecbd1bcc4ea53ff137b57ddb30f3eded8387e8a91fa  stage1.bin<br>
       bd1d4d164a0818499ad535f7dcc44c5412f1649ffce32afc6b47e38f921c1a98  payload/offsets.json<br>
       8d60d644e01adf56e9658eda61dffb1b0747c663e2e843038e8e7ed26ccc2e9d  payload/launchctl<br>
-      cc921cd8eeebd590b030654e894e2539a89bae73619ecd9bab2ce897815ee67e  untethered/Cydia.tar<br>
+      d97bca57a3325e1e56456ffa4477ac6295000f29ff548cc65b7f95203bfa094f  payload/Cydia.tar<br>
       48f56b56e071e05d9a595a3420b0e5af1d094d3360d6e5455bc7da498903bb1e  payload/tar<br>
     </div>
   </div>
